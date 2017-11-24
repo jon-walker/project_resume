@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'quattrocento';
+    src: url(../fonts/quattrocentosans-regular.ttf) format('truetype');
+    src: url(../fonts/quattrocentosans-regular.woff) format('woff'), url(../fonts/quattrocentosans-regular.eot);
+}
+@font-face {
+    font-family: 'black-bamboo';
+    src: url(../fonts/black-bamboo.ttf) format('truetype');
+
+    /* The .eot & .woff files render improperly. In IE, fonts will fall back to quattrocento instead. */
+}
+
+body {
+    font-family: 'quattrocento';
+    background-color: rgb(2, 10, 16);
+    color: rgb(254, 254, 254);
+    position: relative;
+}
+
+h1 {
+    font-family: 'black-bamboo', 'quattrocento', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(244, 182, 61);
+}
