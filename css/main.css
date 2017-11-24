@@ -63,3 +63,18 @@ ul {
 li {
     margin: 0;
 }
+
+.resume__skills > li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resume__skills {
+    max-width: 200px; /* Keeps distance between label and scale minimal for better readability */
+}
+
+.resume__skills li img {
+    width: 5rem;
+    max-width: 170px;
+}
