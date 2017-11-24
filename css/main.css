@@ -27,12 +27,33 @@ body {
     margin-top: 0;
 }
 
-h1 {
-    font-family: 'black-bamboo', 'quattrocento', sans-serif;
-}
-
 h1,
 h2,
-h3 {
+h3,
+p,
+li {
+    margin: 1.8rem;
+}
+
+h1 {
+    font-family: 'black-bamboo', 'quattrocento', sans-serif;
+    position: absolute;
+    top: 2rem;
+}
+
+a:link {
+    color: rgb(254, 254, 254);
+}
+
+a:hover,
+a:visited {
+    color: rgb(200, 200, 200);
+}
+
+/* Keep this rule after the rules for a:link so a:active rule actually works! */
+h1,
+h2,
+h3,
+a:active {
     color: rgb(244, 182, 61);
 }
