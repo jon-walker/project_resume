@@ -36,6 +36,7 @@ h1 {
     font-family: 'black-bamboo', 'quattrocento', sans-serif;
     position: absolute;
     top: 2rem;
+    font-size: 2rem;
 }
 
 a:link {
@@ -64,6 +65,26 @@ li {
     margin: 0;
 }
 
+section + section {
+    margin-top: 3.2rem;
+}
+
+li + li {
+    margin-top: 1.2rem;
+}
+
+/* Font Sizes */
+h2 {
+    font-size: 1.8rem;
+}
+
+h3,
+p,
+li {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
 .resume__skills > li {
     display: flex;
     align-items: center;
@@ -71,7 +92,7 @@ li {
 }
 
 .resume__skills {
-    max-width: 200px; /* Keeps distance between label and scale minimal for better readability */
+    max-width: 215px; /* Keeps distance between label and scale minimal for better readability */
 }
 
 .resume__skills li img {
