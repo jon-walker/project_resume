@@ -132,12 +132,12 @@ h4 {
 
 .college-logo {
     text-align: center;
-    width: 100;
+    width: 100%;
 }
 
 .college-logo img {
     width: 50%;
-    max-width: 180px;
+    max-width: 160px;
 }
 
 .links {
@@ -199,7 +199,7 @@ h4 {
     }
 
     .li_tier-1 {
-        width: 45%;
+        width: 35%;
         margin-bottom: 3rem;
         margin-right: 3rem;
     }
