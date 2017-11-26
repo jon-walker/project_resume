@@ -73,7 +73,7 @@ li + li {
     margin-top: 1.2rem;
 }
 
-/* Font Sizes */
+/* -------- Font Sizes --------- */
 h2 {
     font-size: 1.8rem;
 }
@@ -85,6 +85,23 @@ li {
     line-height: 1.6rem;
 }
 
+/* --------- SKILLS SECTION --------- */
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact p ~ p,
+.contact h2 ~ p {
+    margin-left: 1rem;
+}
+
+.contact p img {
+    width: 4rem;
+    max-width: 90px;
+}
+
+/* --------- SKILLS SECTION --------- */
 .resume__skills > li {
     display: flex;
     align-items: center;
