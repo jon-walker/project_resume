@@ -132,11 +132,16 @@ h4 {
 
 .college-logo {
     text-align: center;
+    width: 100;
 }
 
 .college-logo img {
-    width: 60%;
+    width: 50%;
     max-width: 180px;
+}
+
+.links {
+    display: block;
 }
 
 /* --------- SKILLS SECTION --------- */
@@ -179,5 +184,36 @@ h4 {
     .contact p ~ p,
     .contact h2 ~ p {
         margin-left: 1rem;
+    }
+}
+
+/* -------- MEDIA QUERY - MORE THAN 500 PX --------- */
+
+@media (min-width: 650px) {
+
+    h2 + ul {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .li_tier-1 {
+        width: 45%;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+    }
+
+    .li_tier-1 + .li_tier-1 {
+        margin-top: 0;
+    }
+}
+
+/* -------- MEDIA QUERY - MORE THAN 500 PX --------- */
+
+@media (min-width: 930px) {
+
+    .li_tier-1 {
+        width: 30%;
     }
 }
