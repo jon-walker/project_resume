@@ -34,8 +34,6 @@ section {
 
 h1 {
     font-family: 'black-bamboo', 'quattrocento', sans-serif;
-    position: absolute;
-    top: 2rem;
     font-size: 2rem;
 }
 
@@ -85,7 +83,20 @@ li {
     line-height: 1.6rem;
 }
 
-/* --------- SKILLS SECTION --------- */
+.headshot {
+    border-radius: 50%;
+    width: 5rem;
+    max-width: 200px;
+    display: block;
+    margin-left: 2rem;
+}
+
+.parallax {
+    display: flex;
+    align-items: center;
+}
+
+/* --------- CONTACT SECTION --------- */
 .contact {
     display: flex;
     align-items: center;
