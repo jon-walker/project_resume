@@ -34,7 +34,7 @@ section {
 
 h1 {
     font-family: 'black-bamboo', 'quattrocento', sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 a:link {
@@ -67,7 +67,7 @@ li {
 }
 
 section + section {
-    margin-top: 3.2rem;
+    margin-top: 2.2rem;
 }
 
 li + li {
@@ -80,11 +80,10 @@ li + li {
 
 /* -------- Font Sizes --------- */
 h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 h3 {
-    font-size: 1.5rem;
     margin-bottom: 0;
 }
 
@@ -92,6 +91,8 @@ h4 {
     font-weight: 400;
 }
 
+h3,
+h4,
 p,
 li {
     font-size: 1.1rem;
@@ -118,28 +119,13 @@ li {
     align-items: center;
 }
 
-.contact p ~ p,
-.contact h2 ~ p {
-    margin-left: 1rem;
-}
-
 .contact p img {
-    width: 4rem;
+    width: 3.6rem;
     max-width: 90px;
 }
 
 /* --------- EXPERIENCE SECTIONS -------- */
-h3 {
-    display: inline-block;
-}
-
-h3 ~ p:first-of-type {
-    display: inline-block;
-    margin-left: 1rem;
-}
-
 h4 {
-    font-size: 1.3;
     margin-top: 1rem;
     margin-bottom: 0.8rem;
 }
@@ -158,4 +144,31 @@ h4 {
 .resume__skills li img {
     width: 5rem;
     max-width: 170px;
+}
+
+/* -------- MEDIA QUERY - MORE THAN 500 PX --------- */
+
+@media (min-width: 500px) {
+
+    section + section {
+        margin-top: 3.2rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        display: inline-block;
+    }
+
+    h3 ~ p:first-of-type {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+
+    .contact p ~ p,
+    .contact h2 ~ p {
+        margin-left: 1rem;
+    }
 }
