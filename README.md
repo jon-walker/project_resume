@@ -1,8 +1,14 @@
-# jQuery Homework - Jon Walker
+# Resume Project - Jon Walker
 
 ## GitHub Link
 
 [GitHub Repo](https://github.com/the-real-jon-walker/project_resume_walker_jon)
+
+[Live Site](http://walkerportfolio.com/resume-proto/)
+
+[W3 HTML Validation Check](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwalkerportfolio.com%2Fresume-proto%2F)
+
+[HTML Outline](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwalkerportfolio.com%2Fresume-proto%2F)
 
 ## Resources
 
