@@ -146,7 +146,6 @@ h4 {
 
 /* --------- SKILLS SECTION --------- */
 .resume__skills > li {
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -158,6 +157,15 @@ h4 {
 .resume__skills li img {
     width: 5rem;
     max-width: 170px;
+}
+
+/* Skill filter classes */
+.hide-skills {
+    display: none;
+}
+
+.show-skills {
+    display: flex;
 }
 
 /* -------- MEDIA QUERY - MORE THAN 500 PX --------- */

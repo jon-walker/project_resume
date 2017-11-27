@@ -120,20 +120,36 @@
         <!-- Skills -->
         <section>
             <h2>Skills Profile</h2>
+            <div class="skills-filter">
+                <p>Click the Category to Filter Skills</p>
+                <p><input id="filter-coding" type="radio" name="skills" value="Coding"> Coding</p>
+                <p><input  id="filter-graphics" type="radio" name="skills" value="Graphics"> Graphics</p>
+                <p><input  id="filter-marketing" type="radio" name="skills" value="Marketing"> Marketing</p>
+
+                <!-- Radio buttons will be used to select the categories to show.
+
+                TODO:
+                Finish adding inputs and labels.
+                Set Up Container for Filter Controls.
+                Write JS to control filters.
+                -->
+            </div>
             <ul class="resume__skills">
-                <!-- Rating Scale Sliders will be right aligned using CSS later. -->
-                <li>HTML <img src="img/scale-5.png" alt="Expert" title="Expert"></li>
-                <li>CSS <img src="img/scale-5.png" alt="Expert" title="Expert"></li>
-                <li>Javascript <img src="img/scale-3.png" alt="Proficient" title="Proficient"></li>
-                <li>jQuery<img src="img/scale-3.png" alt="Proficient" title="Proficient"></li>
-                <li>PHP <img src="img/scale-3.png" alt="Proficient" title="Proficient"></li>
-                <li>Photoshop <img src="img/scale-4.png" alt="Excellent" title="Excellent"></li>
-                <li>Illustrator <img src="img/scale-4.png" alt="Excellent" title="Excellent"></li>
-                <li>InDesign <img src="img/scale-5.png" alt="Expert" title="Expert"></li>
-                <li>Solidworks <img src="img/scale-2.png" alt="Beginner" title="Beginner"></li>
-                <li>Keyshot <img src="img/scale-2.png" alt="Beginner" title="Beginner"></li>
-                <li>Google Adwords <img src="img/scale-3.png" alt="Proficient" title="Proficient"></li>
-                <li>Google Analytics <img src="img/scale-4.png" alt="Excellent" title="Excellent"></li>
+                <li class="coding hide-skills">HTML <img src="img/scale-5.png" alt="Expert" title="Expert"></li>
+                <li class="coding hide-skills">CSS <img src="img/scale-5.png" alt="Expert" title="Expert"></li>
+                <li class="coding hide-skills">Javascript <img src="img/scale-3.png" alt="Proficient" title="Proficient"></li>
+                <li class="coding hide-skills">jQuery<img src="img/scale-3.png" alt="Proficient" title="Proficient"></li>
+                <li class="coding hide-skills">PHP <img src="img/scale-3.png" alt="Proficient" title="Proficient"></li>
+
+                <li class="graphics hide-skills">Photoshop <img src="img/scale-4.png" alt="Excellent" title="Excellent"></li>
+                <li class="graphics hide-skills">Illustrator <img src="img/scale-4.png" alt="Excellent" title="Excellent"></li>
+                <li class="graphics hide-skills">InDesign <img src="img/scale-5.png" alt="Expert" title="Expert"></li>
+
+                <li class="graphics hide-skills">Solidworks <img src="img/scale-2.png" alt="Beginner" title="Beginner"></li>
+                <li class="graphics hide-skills">Keyshot <img src="img/scale-2.png" alt="Beginner" title="Beginner"></li>
+
+                <li class="marketing hide-skills">Google Adwords <img src="img/scale-3.png" alt="Proficient" title="Proficient"></li>
+                <li class="marketing hide-skills">Google Analytics <img src="img/scale-4.png" alt="Excellent" title="Excellent"></li>
             </ul>
         </section>
 
