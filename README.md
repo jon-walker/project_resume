@@ -41,3 +41,5 @@ This is the source for my second jQuery plugin.
 I reviewed the list of deductions for this project and in the syllabus.
 
 ## Comments
+
+Not my prettiest site, I know. I was trying to match the look and feel of my portfolio site, but I know the CSS could use a little work. Any suggestions?
