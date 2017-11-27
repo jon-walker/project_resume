@@ -225,6 +225,10 @@ h4 {
 
 @media (min-width: 930px) {
 
+    h3 {
+        font-size: 1.4rem;
+    }
+
     .li_tier-1 {
         width: 30%;
     }
